@@ -1,3 +1,4 @@
+# no extra space
 def removeEven(List):
     num_of_evens = 0
     idx = 0
@@ -15,3 +16,9 @@ def removeEven(List):
 
 
 print(removeEven([1, 2, 3, 4]))
+
+
+# returns a new list
+def removeEven2(List):
+    # List comprehension to iter aover List and add to new list if not even
+    return [number for number in List if number % 2 != 0]
