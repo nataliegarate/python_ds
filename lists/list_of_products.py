@@ -3,9 +3,8 @@ def findProduct(arr):
     product = 1
     for x in arr:
         product *= x
-
     for num in arr:
-        products.append(product/num)
+        products.append(int(product/num))
     return products
 
 
