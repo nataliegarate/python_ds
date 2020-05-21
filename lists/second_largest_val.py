@@ -3,14 +3,12 @@ def findSecondMaximum(lst):
         return 'list too short'
     highest = second = float('-inf')
     for x in range(0, len(lst)):
-        print(lst[x])
         if lst[x] > highest:
             temp = highest
             highest = lst[x]
             second = temp
         elif lst[x] > second and lst[x] != highest:
             second = lst[x]
-        print(highest, second)
     if (second == float('-inf')):
         return 'only one unique value'
     return second
