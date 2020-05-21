@@ -18,6 +18,7 @@ def findFirstUnique(lst):
 
 print(findFirstUnique([4, 5, 1, 2, 0, 4]))
 
-# note: for older versions of python
+# note:
+# for older versions of python
 # from collections import OrderedDict
 # than  map = OrderedDict()
