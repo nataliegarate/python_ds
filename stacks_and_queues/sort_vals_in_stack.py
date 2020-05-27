@@ -17,6 +17,9 @@ def sortStack(stack):
     return stack
 
 
+# The outer and inner loops both traverse all the n elements of the stack. Hence, the time complexity is O(n2).
+
+
 stacky = myStack()
 stacky.push(19)
 stacky.push(9)
